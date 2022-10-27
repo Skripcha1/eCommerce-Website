@@ -8,7 +8,10 @@
             .main-page{
                 text-align: center;
                 background-image: url("wix-background-image.jpg");
+                background-repeat: no-repeat;
                 height: 500px;
+                /* width0%; */
+                object-fit: fill;
                 padding: 100px;
                 background-size:cover; 
                 background-repeat: no-repeat;
@@ -50,7 +53,7 @@
                 color: white;
                 height: 35px; 
                 border-radius: 24px;
-                margin: 5px;
+                /* margin: 5px; */
 
 
             }
@@ -64,12 +67,17 @@
                 color: rgb(10, 3, 3);
                 height: 35px; 
                 border-radius: 24px;
-                margin-bottom: 200px;
+                
+                
             }
             .crt-f{
                 margin-left: 27px;
                 color: black; 
                 margin: 40px;
+            }
+            #link{
+                color: aliceblue;
+                text-decoration: none;
             }
         
         </style>
@@ -100,21 +108,24 @@
                 <span class="crt-p">
                     Resources     
                 </span>
+                <span class="crt-p" onclick="window.location='your http/https link'">
+                    Pricing     
+                </span>
+                <span class="crt-p" onclick="window.location='Login.html '" >
+                    Login   
+                </span>
+                <button class="crt-p button-crt">
+                    <a id="link" href="signing-in.html">
+                        Create Your Store
+                    </a>
+                    
+                </button>
         <!-- </div> -->
         
 
-                <nav style="margin-bottom: 30px;">
-                    <a href="/pricing/" target="_blank" >
-                        Pricing
-                    </a> 
-                    <a href="/login/" target="_blank" style="margin-left: 48px;" >
-                        Log in
-                    </a>
-                </nav>    
+                
                
-                <button class="button-crt">
-                    Create Your Store
-                </button>
+                
 
             
            
@@ -129,14 +140,19 @@
                 <br>
                 Jhill eCommerce
             </h1>
-            <input  class="crt-e" type="text" id="email" placeholder="Enter email your address">   
-            <a href="new-page" target="_blank">
-            </a>
-            <button class="crt-1" >
-                Create Your Store
-            </button>
-                
-            <br>
+            <span>
+                <input style="width: 420px; height: 54px;"  class="crt-e" type="text" id="email" placeholder="Enter email your address">   
+                <a href="new-page" target="_blank">
+                </a>
+                <button style="width: 230px; height: 54px;" class="crt-1 button-crt">
+                    <a id="link" href="signing-in.html">
+                        Create Your Store
+                    </a>
+                </button>
+                 <br>
+            </span>
+       
+             
         </div>
          <br>
         <div class="crt-f" style="text-align:center ">
@@ -164,6 +180,20 @@
                     </span>
 
         </div>
+        <div>
+            <h2 style="text-align:left; font-size: 48px;">
+                The all-in-one
+                <br> 
+                eCommerce platform
+            </h2>
+            <h4 style="text-align:right;font: size 20px;">
+                Sell online through your eCommerce website,<br> 
+                social media and sales channels, or in-person with<br> 
+                POS. Manage shipping, payments, marketing and<br>
+                more, from one unified dashboard.
+            </h4>
+        </div>
+       
     
     </body>
 </html>
