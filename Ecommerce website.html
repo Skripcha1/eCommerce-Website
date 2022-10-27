@@ -3,15 +3,16 @@
     <head>
         <meta charset="UTF-8"> 
         <title>Mine eCommerce Website</title>
+        <link rel="icon" type="image/x-icon" href="jhill.jpg">
         <style>
             .main-page{
                 text-align: center;
                 background-image: url("wix-background-image.jpg");
                 height: 500px;
                 padding: 100px;
-                background-size: cover;
+                background-size:cover; 
                 background-repeat: no-repeat;
-                background-attachment:scroll;
+                background-attachment: scroll;
                 font-size: 40px;
                 /* background-color: powderblue; */
             }
@@ -22,6 +23,8 @@
             .header{
                 display: flex;
                 justify-content: space-evenly;
+                background-attachment: fixed;
+               
 
             }
             .logo{
@@ -38,6 +41,7 @@
             .crt-p{
                 margin-left: 12px;
                 color: black;
+                margin: auto;
             }
             .button-crt{
                 /* border: 3px solid red; */
@@ -46,7 +50,7 @@
                 color: white;
                 height: 35px; 
                 border-radius: 24px;
-                /* margin: 5px; */
+                margin: 5px;
 
 
             }
@@ -56,9 +60,16 @@
                 height: 35px; 
                 border-radius: 24px;
             }
-            .footer{
-                margin-left: 12px;
+            .crt-e{
+                color: rgb(10, 3, 3);
+                height: 35px; 
+                border-radius: 24px;
+                margin-bottom: 200px;
+            }
+            .crt-f{
+                margin-left: 27px;
                 color: black; 
+                margin: 40px;
             }
         
         </style>
@@ -68,9 +79,9 @@
         <!--Creatiing the website's header-->
         <div class="header">
             <h4 class="logo">
-                <bold>
+                <strong>
                     Jhill
-                </bold>
+                </strong>
                     eCommerce
             </h4>
             <!-- <div class="crt"> -->
@@ -89,12 +100,14 @@
                 <span class="crt-p">
                     Resources     
                 </span>
+        <!-- </div> -->
+        
 
-                <nav>
-                    <a href="/pricing/" target="_blank">
+                <nav style="margin-bottom: 30px;">
+                    <a href="/pricing/" target="_blank" >
                         Pricing
-                    </a>
-                    <a href="/login/" target="_blank">
+                    </a> 
+                    <a href="/login/" target="_blank" style="margin-left: 48px;" >
                         Log in
                     </a>
                 </nav>    
@@ -103,7 +116,7 @@
                     Create Your Store
                 </button>
 
-            <!-- </div> -->
+            
            
             <!-- <div class="crt"> -->
             
@@ -116,7 +129,7 @@
                 <br>
                 Jhill eCommerce
             </h1>
-            <input type="text" id="email" placeholder="Enter email your address">   
+            <input  class="crt-e" type="text" id="email" placeholder="Enter email your address">   
             <a href="new-page" target="_blank">
             </a>
             <button class="crt-1" >
@@ -126,17 +139,30 @@
             <br>
         </div>
          <br>
-        <div class="Footer">
-            <nav>
-                <a href="/sell/" target="_blank">
-                    Sell
-                </a>|
-                
-                <a href="/testimonials/" target="_blank">
-                        Testimonials
-                </a>|
-                
-            </nav>
+        <div class="crt-f" style="text-align:center ">
+        
+                    <span class="crt-f">
+                       Sell    
+                    </span>|
+                    <span class="crt-f">
+                        Testimonials    
+                    </span>|
+                    <span class="crt-f">
+                        Infrastructure     
+                    </span>|
+                    <span class="crt-f">
+                       Features    
+                    </span>|
+                    <span class="crt-f">
+                        Multichannel    
+                    </span>|
+                    <span class="crt-f">
+                       Growth   
+                    </span>|
+                    <span class="crt-f">
+                        Templates    
+                    </span>
+
         </div>
     
     </body>
