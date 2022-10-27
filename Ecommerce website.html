@@ -1,40 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8"> 
         <title>Mine eCommerce Website</title>
         <style>
             .main-page{
                 text-align: center;
-                background-color: powderblue;
+                background-image: url("wix-background-image.jpg");
+                height: 500px;
+                padding: 100px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment:scroll;
+                font-size: 40px;
+                /* background-color: powderblue; */
             }
-            .vl{
+            /* .vl{
                 border-left: 6px solid black;
                  height: 500px;
+            } */
+            .header{
+                display: flex;
+                justify-content: space-evenly;
+
             }
+            .logo{
+                font-size: x-large; 
+                font-style: italic;
+            }
+            .crt{
+                /* display: flex;
+                justify-content: space-evenly; */
+                /* margin: 0  ; */
+                margin-top: 27px;
+            }
+           
+            .crt-p{
+                margin-left: 12px;
+                color: black;
+            }
+            .button-crt{
+                /* border: 3px solid red; */
+                /* padding: 19px; */
+                background-color: black;
+                color: white;
+                height: 35px; 
+                border-radius: 24px;
+                /* margin: 5px; */
+
+
+            }
+            .crt-1{
+                background-color: tomato;
+                color: white;
+                height: 35px; 
+                border-radius: 24px;
+            }
+            .footer{
+                margin-left: 12px;
+                color: black; 
+            }
+        
         </style>
 
     </head>
     <body>
         <!--Creatiing the website's header-->
         <div class="header">
-            <h4><b>Jhill</b>eCommerce</h4>
-            <h5>Launch Sell Manage Promote Resources <a href="new page" target="_blank">Pricing</a>  <a href="new page" target="_blank">Log in</a></h5> 
-            <a href="new-page" target="_blank"> <input type="button" id="store" value="Create Your Store"></a>
+            <h4 class="logo">
+                <bold>
+                    Jhill
+                </bold>
+                    eCommerce
+            </h4>
+            <!-- <div class="crt"> -->
+                <span class="crt-p">
+                    Launch     
+                </span>
+                <span class="crt-p">
+                    Sell     
+                </span>
+                <span class="crt-p">
+                    Manage     
+                </span>
+                <span class="crt-p">
+                    Promote     
+                </span>
+                <span class="crt-p">
+                    Resources     
+                </span>
+
+                <nav>
+                    <a href="/pricing/" target="_blank">
+                        Pricing
+                    </a>
+                    <a href="/login/" target="_blank">
+                        Log in
+                    </a>
+                </nav>    
+               
+                <button class="button-crt">
+                    Create Your Store
+                </button>
+
+            <!-- </div> -->
+           
+            <!-- <div class="crt"> -->
+            
+            <!-- </div> -->
+                
         </div>
         <!--Website's main page-->
         <div class="main-page">
-            <h1>Sell everywhere with<br> Jhill eCommerce</h1><br>
-            <input type="text" id="email" holder="Enter email your address">   <a href="new-page" target="_blank"> <input type="button" id="store" value="Create Your Store" style="background-color:tomato"></a><br>
-
-            <img src="coatofarm">
-
-
-
-        </div><br>
+            <h1>Sell everywhere with
+                <br>
+                Jhill eCommerce
+            </h1>
+            <input type="text" id="email" placeholder="Enter email your address">   
+            <a href="new-page" target="_blank">
+            </a>
+            <button class="crt-1" >
+                Create Your Store
+            </button>
+                
+            <br>
+        </div>
+         <br>
         <div class="Footer">
-            <h4>
-                <a href="new page" target="_blank">Sell</a> <span class="vl"><a href="new page" target="_blank">Testimonials</a></span><span class="vl"></span>
-            </h4>
+            <nav>
+                <a href="/sell/" target="_blank">
+                    Sell
+                </a>|
+                
+                <a href="/testimonials/" target="_blank">
+                        Testimonials
+                </a>|
+                
+            </nav>
         </div>
     
     </body>
