@@ -2,27 +2,31 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=width-device; initial-scale=1.0">
         <title>Mine eCommerce Website</title>
         <link rel="icon" type="image/x-icon" href="jhill.jpg">
         <style>
             .main-page{
                 text-align: center;
+                letter-spacing: 0em;
+                line-height:1.2em;
+                font: var(--font_0);
                 background-image: url("wix-background-image.jpg");
                 background-repeat: no-repeat;
                 height: 500px;
                 /* width0%; */
                 object-fit: fill;
                 padding: 100px;
+                border: 0px;
+                outline: 0;
                 background-size:cover; 
                 background-repeat: no-repeat;
-                background-attachment: scroll;
+                background-attachment:scroll;
                 font-size: 40px;
+                overflow-wrap: break-word;
                 /* background-color: powderblue; */
             }
-            /* .vl{
-                border-left: 6px solid black;
-                 height: 500px;
-            } */
+           
             .header{
                 display: flex;
                 justify-content: space-evenly;
@@ -56,7 +60,7 @@
                 background-color: black;
                 color: white;
                 height: 35px; 
-                border-radius: 24px;
+                border-radius: 30px;
                 /* margin: 5px; */
 
 
@@ -115,52 +119,36 @@
                 <span class="crt-p" onclick="window.location='your http/https link'">
                     Pricing     
                 </span>
-                <span class="crt-p" onclick="window.location='Login.html '" >
+                <span class="crt-p" onclick="window.location='signing-in.html '" >
                     Login   
                 </span>
                 <button class="crt-p button-crt">
-                    <a id="link" href="signing-in.html">
+                    <a id="link" href="login1.html">
                         Create Your Store
                     </a>
                     
-                </button>
-        <!-- </div> -->
-        
-
-                
-               
-                
-
-            
-           
-            <!-- <div class="crt"> -->
-            
-            <!-- </div> -->
-                
+                </button>         
         </div>
         <!--Website's main page-->
         <div class="main-page">
-            <h1>Sell everywhere with
-                <br>
+            <h2 style="margin-top:1%;margin-bottom: 1%, ">
+                Sell everywhere with<br>
                 Jhill eCommerce
-            </h1>
-            <span>
-                <input style="width: 420px; height: 54px;"  class="crt-e" type="text" id="email" placeholder="Enter email your address">   
-                <a href="new-page" target="_blank">
+            </h2>
+            <div>
+                <input style="width: 420px; height: 54px; ;"  class="crt-e" type="text" id="email"
+                 placeholder="Enter your email address">
                 </a>
                 <button style="width: 230px; height: 54px;" class="crt-1 button-crt">
-                    <a id="link" href="signing-in.html">
+                    <a id="link" href="login1.html">
                         Create Your Store
                     </a>
                 </button>
                  <br>
-            </span>
-       
-             
+            </div>     
         </div>
          <br>
         <div class="crt-f" style="text-align:center; ">
-        
                     <span class="crt-f">
                        Sell    
                     </span>|
@@ -182,9 +170,7 @@
                     <span class="crt-f">
                         Templates    
                     </span>
-
         </div>
-
         <div style="display:flex; justify-content: space-between;padding: 12%; background-color:rgb(244, 243, 243);">
             <div style="width: 40%;">
                 <h2 style="font-size: 48px; margin:auto;">
@@ -194,7 +180,6 @@
                 </h2>
             
             </div>
-
             <div>
                 <h4 style= "margin-left:50px; font-size:20px;">
                     <span> Sell online through your eCommerce website,</span> <br>
@@ -202,16 +187,12 @@
                     <span>POS. Manage shipping, payments, marketing and</span><br>
                     <span>more, from one unified dashboard.</span><br>  
                     <button class="crt-p button-crt" style="margin-top:40px; width:175px;height:54px;">
-                        <a id="link" href="signing-in.html">
+                        <a id="link" href="login1.html">
                            Get Started
                         </a>
                     </button>
                 </h4>
-            </div>
-            
-           
+            </div>   
         </div>
-       
-    
     </body>
 </html>
